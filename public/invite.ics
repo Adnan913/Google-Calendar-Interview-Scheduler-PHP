@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Karachi
+X-LIC-LOCATION:Asia/Karachi
+BEGIN:STANDARD
+TZOFFSETFROM:+0500
+TZOFFSETTO:+0500
+TZNAME:PKT
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Karachi:20231025T220032
+DTEND;TZID=Asia/Karachi:20231025T230032
+DTSTAMP:20231025T220032
+ORGANIZER;CN=adnansamisavvy@gmail.com:mailto:adnansamisavvy@gmail.com
+UID:empmeet1698652600
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=adnansami9134@gmail.com;X-NUM-GUESTS=0:mailto:adnansami9134@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/jgg-wvtg-tcz
+X-MICROSOFT-CDO-OWNERAPPTID:-1761073793
+URL:https://meet.google.com/jgg-wvtg-tcz
+CREATED:20231009T113556Z
+DESCRIPTION:Dear Candidate,Hope you're doing well.Your virtual interview with Linkstar is set up as per the following schedule. Please ensure that you join 5 minutes prior to your allotte\n\n<b>Join Google Meet:</b>\nhttps://meet.google.com/jgg-wvtg-tcz
+LAST-MODIFIED:20231009T123423Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Interview with Linkstar — Oliv
+LOCATION:Online
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
