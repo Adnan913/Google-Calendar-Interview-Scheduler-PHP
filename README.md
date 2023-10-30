@@ -59,8 +59,8 @@ After complete the form, Then publish the application
 ![image](https://github.com/Adnan913/Google-Calendar-Interview-Scheduler-PHP/assets/54793380/40cc0375-e33a-456c-b86e-3261c0b36a93)
 
 Download the credentails.json 
-###
-![image](https://github.com/Adnan913/Google-Calendar-Interview-Scheduler-PHP/assets/54793380/ed492c59-b33f-4b59-ab58-bc8f1e5cb488)
+![image](https://github.com/Adnan913/Google-Calendar-Interview-Scheduler-PHP/assets/54793380/8a0475eb-7d70-45d2-8677-c1e7b3d986aa)
+
 
 Placed the credentials.json in a root directory
 ![image](https://github.com/Adnan913/Google-Calendar-Interview-Scheduler-PHP/assets/54793380/298a1abb-4366-42a4-99bd-cc9f29da2959)
@@ -95,9 +95,38 @@ GOOGLE_APPLICATION_NAME=
 ### Project is all set
 Start the project using command:
 ```sh
+php artisan migrate
 php artisan serve
 ```
 
+### Steps to Create Calendar Event
+- Execute get-url api and copy the data url and select account to authenticate
+![image](https://github.com/Adnan913/Google-Calendar-Interview-Scheduler-PHP/assets/54793380/d8562d36-c0bd-402a-a542-3c1dda196dac)
+
+- Copy the code from url
+![image](https://github.com/Adnan913/Google-Calendar-Interview-Scheduler-PHP/assets/54793380/d1e776d0-69d9-4faf-b4be-9af8b9e38f57)
+
+- Excute get token api and to get token second time your need pass only employer id
+
+![image](https://github.com/Adnan913/Google-Calendar-Interview-Scheduler-PHP/assets/54793380/df309d9b-5c7f-4bba-b92e-5c56c1421494)
+
+- Send invitation by executing this api:
+  ![image](https://github.com/Adnan913/Google-Calendar-Interview-Scheduler-PHP/assets/54793380/170d3902-a21f-40a8-9c3d-6f77378a29de)
+
+- To check if token is expire:
+  ![image](https://github.com/Adnan913/Google-Calendar-Interview-Scheduler-PHP/assets/54793380/e1c8ccaf-9885-49e1-a4dc-523bdc3804bc)
+
+
+
+Check emial you will receive an invitation email
+
+
+### For any reason user disconnected the application from google security 
+Then sending invitation will send an email to authenticate again
+
+### For more useful tips and trick follow 
+[github: Adnan Sami](https://github.com/Adnan913)
+[linkedin:Adnan Sami](https://www.linkedin.com/in/adnansami9134/)
 
 
 
