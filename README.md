@@ -58,10 +58,8 @@ Then publish the application
 After complete the form, Then publish the application
 ![image](https://github.com/Adnan913/Google-Calendar-Interview-Scheduler-PHP/assets/54793380/40cc0375-e33a-456c-b86e-3261c0b36a93)
 
-Download the credentails.json 
+Download the credentails.json and Placed the credentials.json in a root directory
 ![image](https://github.com/Adnan913/Google-Calendar-Interview-Scheduler-PHP/assets/54793380/8a0475eb-7d70-45d2-8677-c1e7b3d986aa)
-Placed the credentials.json in a root directory
-![image](https://github.com/Adnan913/Google-Calendar-Interview-Scheduler-PHP/assets/54793380/298a1abb-4366-42a4-99bd-cc9f29da2959)
 
 ### Configure .ENV file
 
