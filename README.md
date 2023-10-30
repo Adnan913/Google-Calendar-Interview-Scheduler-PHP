@@ -1,4 +1,4 @@
-## About Laravel
+## About
 
 Using Google Calendar Api service to create events and send invitation to specified user (invitation includes: Calendar remaindar and google meet link )
 - This project can create canlendar events.
