@@ -76,7 +76,7 @@ DB_PASSWORD=
 MAIL_MAILER=smtp
 MAIL_HOST=mailpit
 MAIL_PORT=1025
-MAIL_USERNAME=[Your emial address]
+MAIL_USERNAME=[Your emial address] #add this email to SendInvitation.php controller to send emails
 MAIL_PASSWORD=[Your password]
 MAIL_ENCRYPTION=ssl
 
