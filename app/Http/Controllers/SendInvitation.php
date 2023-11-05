@@ -71,8 +71,8 @@ class SendInvitation
             $employerToken->update(['is_expired' => true]);
             $data = new Request ([
                 "email_to"   => $emailFrom,
-                "from_email" => "fypbahria2022@gmail.com",
-                "from_name"  => "Oliv",
+                "from_email" => "add email inwhich you want to send email",
+                "from_name"  => "Add from name",
                 "subject"    =>  "Subject Title for reauthentication",
                 'payload'    => array( 
                     'template'     => 'emails.authenticate',
@@ -112,8 +112,8 @@ class SendInvitation
         file_put_contents($filename, $fileContents);
         $data = new Request ([
             "email_to"   => $emailTo,
-            "from_email" => "fypbahria2022@gmail.com",
-            "from_name"  => "Oliv",
+            "from_email" => "add email in which you want to send email",
+            "from_name"  => "Add from name",
             "subject"    =>  "Subject for invitation",
             'attach'     => "invite.ics",
             'payload'    => array( 

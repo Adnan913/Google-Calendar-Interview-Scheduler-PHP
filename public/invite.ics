@@ -14,18 +14,18 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID=Asia/Karachi:20231025T220032
-DTEND;TZID=Asia/Karachi:20231025T230032
-DTSTAMP:20231025T220032
+DTSTART;TZID=Asia/Karachi:20231107T220032
+DTEND;TZID=Asia/Karachi:20231107T230032
+DTSTAMP:20231107T220032
 ORGANIZER;CN=adnansamisavvy@gmail.com:mailto:adnansamisavvy@gmail.com
-UID:empmeet1698652600
+UID:empmeet1699202757
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
  TRUE;CN=adnansami9134@gmail.com;X-NUM-GUESTS=0:mailto:adnansami9134@gmail.com
-X-GOOGLE-CONFERENCE:https://meet.google.com/jgg-wvtg-tcz
+X-GOOGLE-CONFERENCE:https://meet.google.com/jdx-uhmd-yzh
 X-MICROSOFT-CDO-OWNERAPPTID:-1761073793
-URL:https://meet.google.com/jgg-wvtg-tcz
+URL:https://meet.google.com/jdx-uhmd-yzh
 CREATED:20231009T113556Z
-DESCRIPTION:Dear Candidate,Hope you're doing well.Your virtual interview with Linkstar is set up as per the following schedule. Please ensure that you join 5 minutes prior to your allotte\n\n<b>Join Google Meet:</b>\nhttps://meet.google.com/jgg-wvtg-tcz
+DESCRIPTION:Dear Candidate,Hope you're doing well.Your virtual interview with Linkstar is set up as per the following schedule. Please ensure that you join 5 minutes prior to your allotte\n\n<b>Join Google Meet:</b>\nhttps://meet.google.com/jdx-uhmd-yzh
 LAST-MODIFIED:20231009T123423Z
 SEQUENCE:1
 STATUS:CONFIRMED
